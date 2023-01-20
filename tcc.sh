@@ -1,0 +1,1 @@
+./smartbugs --processes 15 -f ../smartbugs-wild/output/0x2*.sol --timeout 600 -t mythril --results './custom-results/${RUNID}/${FILENAME}/${TOOL}' --sarif --log './custom-results/${RUNID}.log' --runid fix_run
